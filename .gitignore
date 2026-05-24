@@ -1,11 +1,23 @@
-venv/
+# Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-data/
-.dvc/cache/
+# Virtual environment
+venv/
 
+# Environment variables
 .env
 
+# OS files
 .DS_Store
+
+# DVC cache (never commit cache)
+.dvc/cache/
+.dvc/tmp/
+
+# IMPORTANT:
+# Do NOT ignore DVC metadata (.dvc files must be tracked by Git)
+# So we explicitly ensure they are not ignored
+!*.dvc
+!.dvc/
