@@ -57,6 +57,17 @@ Key insights:
 - Premium distribution is heavily right-skewed
 
 ---
+## Task 3: Hypothesis Testing
+Implemented:
+- ANOVA tests
+- Independent t-tests
+- Statistical significance evaluation
+- Final hypothesis summary table
+
+Key Findings:
+- Province-level risk differences were statistically significant
+- PostalCode differences were statistically significant
+- Gender-based claim differences were not statistically significant
 
 ## 6. DVC Setup
 
